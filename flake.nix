@@ -152,7 +152,7 @@
         ./nix
         ./packages
         ./targets
-        ./hydrajobs.nix
+        #        ./hydrajobs.nix
         ./templates
       ];
 

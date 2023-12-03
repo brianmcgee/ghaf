@@ -5,6 +5,7 @@
     ./checks.nix
     ./devshell.nix
     ./nixpkgs.nix
+    ./nixos-configurations.nix
     ./treefmt.nix
   ];
 }
