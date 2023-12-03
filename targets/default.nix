@@ -7,6 +7,8 @@
     ./imx8qm-mek.nix
     ./generic-x86_64.nix
     ./lenovo-x1-carbon.nix
+    # todo fix icicle
+    # ./microchip-icicle-kit.nix
     ./vm.nix
   ];
 
