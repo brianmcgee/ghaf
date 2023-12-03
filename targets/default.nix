@@ -4,6 +4,7 @@
 # List of target configurations
 {...}: {
   imports = [
+    ./imx8qm-mek.nix
     ./generic-x86_64.nix
     ./vm.nix
   ];
