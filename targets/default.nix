@@ -6,6 +6,7 @@
   imports = [
     ./imx8qm-mek.nix
     ./generic-x86_64.nix
+    ./lenovo-x1-carbon.nix
     ./vm.nix
   ];
 
