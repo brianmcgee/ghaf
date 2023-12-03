@@ -4,6 +4,7 @@
 # List of target configurations
 {...}: {
   imports = [
+    ./generic-x86_64.nix
     ./vm.nix
   ];
 
@@ -12,7 +13,7 @@
     config,
     ...
   }: {
-    # for each nixos configuration we capture it's package based on the
+    # for each nixos configuration we capture its package based on the
     # configured format of the image
     packages =
       lib.mapAttrs
