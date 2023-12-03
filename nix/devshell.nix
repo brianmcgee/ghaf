@@ -70,7 +70,6 @@
         packages = with pkgs;
           [
             git
-            nix
             nixos-rebuild
             reuse
             alejandra
