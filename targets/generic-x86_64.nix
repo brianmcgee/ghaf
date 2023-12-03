@@ -42,8 +42,8 @@
         extraModules ? [],
       }:
         lib.nixosSystem {
-          inherit system;
-          specialArgs = {inherit lib pkgs self system inputs;};
+          inherit system pkgs;
+          specialArgs = {inherit lib self system inputs;};
           modules =
             [
               inputs.microvm.nixosModules.host
